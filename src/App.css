@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+<<<<<<< HEAD
 
 * {
   box-sizing: border-box;
@@ -36,3 +37,5 @@ h1 {
   border-radius: 50px 0px 50px 20px;
   background-color: #a89cf2;
 }
+=======
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b

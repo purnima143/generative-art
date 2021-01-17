@@ -5,11 +5,19 @@
   color: #e4535e;
 }
 :root {
+<<<<<<< HEAD
   --clr-dark:#221b3a;
   --clr-light: #a89cf2;
   --clr-accent:#665aae;
   --clr-accent-dark: rgb(163, 38, 0);
   --clr-theme: #e3e1f0;
+=======
+  --clr-dark: rgb(13, 17, 19);
+  --clr-light: #fff;
+  --clr-accent: rgb(222, 52, 0);
+  --clr-accent-dark: rgb(163, 38, 0);
+  --clr-secondary: rgb(3, 86, 219);
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
   --br: 0.5em;
 }
 h1,
@@ -31,18 +39,27 @@ img {
   cursor: pointer;
   border: 0;
   outline: none;
+<<<<<<< HEAD
   background: var(--clr-light);
   border-radius: 30px;
   color: var(--clr-dark);
+=======
+  background: #f2294e;
+  border-radius: 30px;
+  color: var(--clr-light);
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
   font-weight: bold;
   font-size: 15px;
   padding: 0.5em 2.3em;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .btn:hover{
   background: var(--clr-accent);
 color: white!important;
 }
+=======
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
 .front {
   transition: 200ms ease-out;
 }
@@ -77,7 +94,11 @@ color: white!important;
 }
 
 .background {
+<<<<<<< HEAD
   background: var(--clr-theme);
+=======
+  background: #2e2759;
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
   position: absolute;
   top: 0;
   bottom: 0;
@@ -107,18 +128,31 @@ color: white!important;
   transform: translateY(0);
 }
 .card:hover .description {
+<<<<<<< HEAD
   color: #2a383b;
+=======
+  color: #4ebfd9;
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
   transition: color 100ms ease-out;
 }
 .card:hover .author {
   animation: artName 300ms ease-in-out forwards;
+<<<<<<< HEAD
   text-align: center;
   font-weight: 300;
+=======
+  text-align: right;
+  font-weight: 600;
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
 }
 @keyframes artName {
   0% {
     opacity: 1;
+<<<<<<< HEAD
     color: #301c1e;
+=======
+    color: #e4535e;
+>>>>>>> ec476dc49a5e33d74d3862ed561b0b34bfca521b
   }
   20% {
     opacity: 0;
