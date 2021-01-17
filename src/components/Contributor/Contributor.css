@@ -12,7 +12,7 @@ h1 {
   height: 150px;
   border: 2px solid white;
 }
-.contributor-name {
+.contributor {
   color: #fff !important;
   list-style: none;
   text-decoration: none;
